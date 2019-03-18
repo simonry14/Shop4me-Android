@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "274274081005",
+    "firebase_url": "https://shop4me-5b1ad.firebaseio.com",
+    "project_id": "shop4me-5b1ad",
+    "storage_bucket": "shop4me-5b1ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274274081005:android:b134bbfe5b11ee9c",
+        "android_client_info": {
+          "package_name": "ug.co.shop4me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274274081005-029e2ntn6li3ov1s8gj5gkc85ds7qn2f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ug.co.shop4me",
+            "certificate_hash": "bd90fa6f2c5fe59f372c5a2c70e27f67555d8804"
+          }
+        },
+        {
+          "client_id": "274274081005-5erl9ifhpr8j3osl9ffmqtb9kvhcovlc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBadomw_ThN39bayIrt8fpEUNu1Zfb4wJ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274274081005-sq57qakm0skejhhm6cu9s9q83qsnm5ec.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ug.co.Shop4me"
+              }
+            },
+            {
+              "client_id": "274274081005-5erl9ifhpr8j3osl9ffmqtb9kvhcovlc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
