@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Shop4me</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+
+    <string name="facebook_app_id">166539920537466</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_milk">MilkActivity</string>
+    <string name="title_activity_fruits">FruitsActivity</string>
+    <string name="title_activity_cart">CartActivity</string>
+
+
+    <string name="empty_text">Select song from below to play</string>
+    <string name="standard">Standard</string>
+    <string name="title_changelog">Change log</string>
+    <string name="changelog_close">Close</string>
+    <string name="action_hide">Hide Panel</string>
+    <string name="action_show">Show Panel</string>
+    <string name="action_anchor_enable">Enable Anchor Point</string>
+    <string name="action_anchor_disable">Disable Anchor Point</string>
+    <string name="idle">Idle</string>
+    <string name="crash_toast_text">Oops Crashe Occurred</string>
+    <string name="offer_banner">"Shop for 2000 to get Rs 100 discount and shop for 3000 to get Rs 200 discount"</string>
+    <string name="checkout">CheckOut</string>
+    <string name="similar_product">Similar Products</string>
+    <string name="slogan">Assignment</string>
+    <string name="email_developer_">Email Developer:</string>
+    <string name="personal_website_">Personal Website :</string>
+    <string name="site_hitesh">www.hiteshsahu.com</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="mob_num">8888813275</string>
+    <string name="lab_locations">Locations</string>
+    <string name="pune">Pune</string>
+    <string name="address_value">C 1002, Lorelle Socity Wakad Pune</string>
+    <string name="title_activity_product_details">ProductDetailsActivity</string>
+    <string name="title_activity_products_list">ProductsListActivity</string>
+    <string name="cart">Cart</string>
+    <string name="_0">0</string>
+    <string name="_9">9</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="free_answer_text">Click button below to Refer you friends</string>
+    <string name="title_activity_address">AddressActivity</string>
+    <string name="title_activity_add_address">AddAddressActivity</string>
+    <string name="title_activity_my_account">My Account</string>
+    <string name="title_activity_order_details">OrderDetailsActivity</string>
+    <string name="title_activity_checkout">Checkout</string>
+    <string name="title_activity_place_order">PlaceOrderActivity</string>
+    <string name="title_activity_loyalty_points">LoyaltyPoints</string>
+    <string name="title_activity_order_success">OrderSuccessActivity</string>
+    <string name="title_activity_notifications">NotificationsActivity</string>
+
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Have no Account? Register Now</string>
+    <string name="btn_link_to_login">Already registered? Login In!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email address to send you password reset instructions.</string>
+    <string name="title_activity_instapay">InstapayActivity</string>
+    <string name="title_activity_join_express">JoinExpressActivity</string>
+
+
+</resources>
