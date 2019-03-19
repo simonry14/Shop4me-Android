@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <ug.co.shop4me.view.SquareImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/item_manifesto_gridview_image"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+        android:scaleType="centerCrop"
+        />
+    <!--android:src="@drawable/img_salon"-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent_black"
+        android:layout_marginBottom="70dp"
+        android:layout_margin="20dp"
+        android:layout_alignBottom="@+id/item_manifesto_gridview_image"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:id="@+id/item_manifesto_gridview_title"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:padding="10dp"/>
+        </LinearLayout>
+</RelativeLayout>

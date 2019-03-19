@@ -1,0 +1,94 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/orderIdTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="6dp"
+            android:text="Order Id: 3515"
+            android:textSize="16sp"
+            android:textColor="@color/black32"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/orderTotalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="6dp"
+            android:layout_below="@+id/orderIdTextView"
+            android:text="135,000/="
+            android:textSize="15sp"
+            android:textColor="@color/light_grey_2"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/orderDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="6dp"
+           android:layout_below="@+id/orderTotalTextView"
+            android:text="Thursday 3rd May 2017"
+            android:textSize="15sp"
+            android:textColor="@color/light_grey_2"
+            android:paddingBottom="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/orderStatusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:paddingLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:paddingTop="6dp"
+            android:paddingRight="6dp"
+            android:text="Delivered"
+            android:textSize="19sp"
+            android:textColor="@color/insta_green"
+            android:textStyle="bold"/>
+
+    <!--    <TextView
+            android:id="@+id/invoiceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/orderStatusTextView"
+            android:textStyle="bold"
+            android:paddingRight="6dp"
+            android:paddingTop="10dp"
+            android:text="Receipt"
+            android:textSize="15sp"
+            android:textColor="@color/blue_bar"
+           />
+-->
+        <Button
+            android:id="@+id/payOrder"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/orderStatusTextView"
+            android:background="@drawable/green_button"
+            android:text="Pay for Order"
+            android:textColor="@color/color_white"/>
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

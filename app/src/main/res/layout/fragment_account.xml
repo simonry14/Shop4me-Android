@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+android:gravity="center_horizontal"
+    tools:context="ug.co.shop4me.view.fragments.AccountFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/pr_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoutButton"
+android:layout_centerHorizontal="true"
+android:layout_alignParentBottom="true"
+        android:text="Logout"/>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:orientation="vertical"
+    tools:context="ug.co.shop4me.view.fragments.ExpressFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/ex"
+        android:layout_height="wrap_content"
+        android:id="@+id/topImg"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt"
+        android:layout_gravity="center"
+        android:text="Get unlimited free deliveries for a full year for just" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expressAmount"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text=""
+       />
+
+    <Button
+        android:id="@+id/joinExpress"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txt"
+        android:background="@drawable/green_button"
+        android:layout_gravity="center_horizontal"
+        android:text="Join Express"
+        android:textColor="@color/color_white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expressExpiry"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:text=""
+        />
+
+</LinearLayout>

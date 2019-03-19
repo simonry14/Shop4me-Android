@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ug.co.shop4me.view.activities.LoyaltyPoints"
+    tools:showIn="@layout/activity_address">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black19"
+        android:padding="7dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/top"
+        android:textSize="17sp"
+        android:text="Earn loyalty points whenever you shop."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black19"
+        android:padding="7dp"
+        android:gravity="center"
+        android:id="@+id/top2"
+        android:textSize="17sp"
+        android:layout_gravity="center_horizontal"
+        android:text="You  can use these points to buy items "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black19"
+        android:gravity="center_vertical"
+        android:id="@+id/top3"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+      />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black19"
+        android:padding="7dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/top4"
+        android:textSize="17sp"
+        android:text="Whenever you refer Shop4me to your friends, you and them will get 5,000/= credit when they make their first order "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black19"
+        android:padding="7dp"
+        android:gravity="center"
+        android:id="@+id/top5"
+        android:textSize="17sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Your can use this credit to buy items. Your credit balance is shown below "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black19"
+        android:gravity="center_vertical"
+        android:id="@+id/top6"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+    />
+
+
+</LinearLayout>

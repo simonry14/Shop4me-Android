@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Let us know what products you would want us to add to our catalog"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtLabel2"
+        android:layout_below="@+id/txtLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Enter the product name below and button. For more than one product separate names with commas"
+        android:textSize="16dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabel2"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:id="@+id/editTextSuggest"/>
+
+
+    <Button
+        android:id="@+id/sendSuggest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/green_button"
+        android:text="Send"
+        android:textColor="@color/white"
+        android:layout_below="@+id/editTextSuggest"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/txtLabel3"
+        android:layout_below="@+id/sendSuggest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+       android:textStyle="bold"
+        android:textColor="@color/insta_green"
+        android:text=""
+        android:textSize="16dp" />
+
+
+</RelativeLayout>
+
+
+
+
